@@ -1,0 +1,24 @@
+{
+  "id": "love-in-seoul",
+  "title": "Love In Seoul",
+  "description": "A heartwarming romance between a baker and a CEO in the heart of Seoul. Secrets, pastries, and destiny collide.",
+  "banner": "https://placehold.co/1200x400/ffb7c5/ffffff?text=Love+In+Seoul+Banner",
+  "genres": ["Romance", "Drama", "Comedy"],
+  "year": "2026",
+  "status": "Ongoing",
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        { "episode": 1, "title": "First Snow", "thumbnail": "https://placehold.co/300x200", "video": "VIDEO_URL_SAMPLE" },
+        { "episode": 2, "title": "Secret Recipe", "thumbnail": "https://placehold.co/300x200", "video": "VIDEO_URL_SAMPLE" }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        { "episode": 1, "title": "New Beginnings", "thumbnail": "https://placehold.co/300x200", "video": "VIDEO_URL_SAMPLE" }
+      ]
+    }
+  ]
+}
