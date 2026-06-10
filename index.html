@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>DramaVault · Premium K-Drama Streaming</title>
+  <meta name="description" content="DramaVault — the ultimate destination for romantic K-dramas, thrillers, and timeless stories. Watch free, track favorites, continue watching.">
+  <meta name="theme-color" content="#FFB7C5">
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: modern sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+
+  <!-- LOADING OVERLAY (for smooth experience) -->
+  <div id="global-loader" class="global-loader"><div class="spinner"></div></div>
+
+  <!-- AD CONTAINER - Top Header Ad -->
+  <div class="ad-container header-ad">
+    <div class="ad-label">Advertisement</div>
+    <div class="ad-placeholder">📺 StreamNow · Your ad here — contact@dramavault.com</div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo"><i class="fas fa-ticket-alt"></i> DramaVault</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Dark/Light mode"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content" id="home-page-content">
+    <!-- Hero Slider -->
+    <section class="hero-slider" id="hero-slider">
+      <div class="hero-track" id="hero-track"></div>
+      <button class="slider-btn prev" id="hero-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-btn next" id="hero-next"><i class="fas fa-chevron-right"></i></button>
+    </section>
+
+    <!-- Search Bar & Filters -->
+    <div class="search-section">
+      <div class="search-wrapper">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="search-input" placeholder="Search by drama name, category, genre..." autocomplete="off">
+      </div>
+      <div class="filter-chips" id="filter-chips">
+        <!-- dynamic categories from JS -->
+      </div>
+    </div>
+
+    <!-- DRAMA GRID SECTIONS -->
+    <section class="drama-section">
+      <div class="section-header">
+        <h2><i class="fas fa-fire"></i> Trending Dramas</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+      <div class="drama-grid" id="trending-grid"></div>
+    </section>
+
+    <section class="drama-section">
+      <div class="section-header">
+        <h2><i class="fas fa-clock"></i> Latest Dramas</h2>
+      </div>
+      <div class="drama-grid" id="latest-grid"></div>
+    </section>
+
+    <section class="drama-section">
+      <div class="section-header">
+        <h2><i class="fas fa-star"></i> Popular Dramas</h2>
+      </div>
+      <div class="drama-grid" id="popular-grid"></div>
+    </section>
+
+    <!-- Sidebar Ad (inline within content) -->
+    <div class="ad-container inline-ad">
+      <div class="ad-label">Sponsored</div>
+      <div class="ad-placeholder">✨ Viu Premium: 30% off · click to unlock ✨</div>
+    </div>
+
+    <!-- Continue Watching Row (localStorage) -->
+    <section class="drama-section" id="continue-watching-section" style="display: none;">
+      <div class="section-header"><h2><i class="fas fa-history"></i> Continue Watching</h2></div>
+      <div class="drama-grid" id="continue-grid"></div>
+    </section>
+
+    <!-- Favorites Row -->
+    <section class="drama-section" id="favorites-section" style="display: none;">
+      <div class="section-header"><h2><i class="fas fa-heart"></i> My Favorites</h2></div>
+      <div class="drama-grid" id="favorites-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>DramaVault</h4>
+        <p>© 2026 Premium K-drama streaming.<br>All rights reserved.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-icons"><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i></div>
+      </div>
+    </div>
+    <!-- Footer Ad -->
+    <div class="ad-container footer-ad">
+      <div class="ad-label">Promotion</div>
+      <div class="ad-placeholder">⭐ Watch exclusive behind-the-scenes ⭐</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
