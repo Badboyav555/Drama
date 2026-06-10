@@ -1,0 +1,34 @@
+[
+  {
+    "id": "love-in-seoul",
+    "title": "Love In Seoul",
+    "poster": "https://placehold.co/400x600/ffccd5/e83e6f?text=Love+In+Seoul",
+    "category": "Romance",
+    "year": "2026",
+    "status": "Ongoing"
+  },
+  {
+    "id": "campus-love",
+    "title": "Campus Love",
+    "poster": "https://placehold.co/400x600/f8d9e0/e83e6f?text=Campus+Love",
+    "category": "School Life",
+    "year": "2025",
+    "status": "Completed"
+  },
+  {
+    "id": "hidden-princess",
+    "title": "Hidden Princess",
+    "poster": "https://placehold.co/400x600/fce4ec/e83e6f?text=Hidden+Princess",
+    "category": "Fantasy",
+    "year": "2026",
+    "status": "Ongoing"
+  },
+  {
+    "id": "eternal-night",
+    "title": "Eternal Night",
+    "poster": "https://placehold.co/400x600/e8d1d9/e83e6f?text=Eternal+Night",
+    "category": "Thriller",
+    "year": "2025",
+    "status": "Ongoing"
+  }
+]
